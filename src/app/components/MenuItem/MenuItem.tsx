@@ -1,7 +1,7 @@
 import styles from "./menu.module.css";
 import { MENU_ITEMS, type MenuItem } from "./menu-items";
 
-export function Menu() {
+export function MenuItem() {
   return (
     <ul className={styles.menu}>
       {MENU_ITEMS.map((menuItem: MenuItem, index) => (

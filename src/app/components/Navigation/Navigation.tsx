@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./navigation.module.css";
-import { Menu } from "../Menu/Menu";
+import { MenuItem } from "../MenuItem/MenuItem";
 import { Instagram } from "lucide-react";
 
 export function Navigation() {
@@ -16,7 +16,7 @@ export function Navigation() {
           priority
         />
       </Link>
-      <Menu />
+      <MenuItem />
       <a
         href="https://www.treatwell.com/your-salon-page"
         target="_blank"
