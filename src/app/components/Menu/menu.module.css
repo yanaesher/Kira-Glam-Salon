@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.menu a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #2b2b45;
+  transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+.menu a:hover {
+  color: #2b2b45;
+}
