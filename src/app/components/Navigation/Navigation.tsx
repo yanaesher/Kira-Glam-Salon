@@ -17,17 +17,16 @@ export function Navigation() {
         />
       </Link>
       <MenuItem />
-      <a
-        href="https://www.treatwell.com/your-salon-page"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.book_btn}
-      >
-        Book Now
-      </a>
 
-      {/* Socials */}
       <div className={styles.socials}>
+        <a
+          href="https://www.treatwell.com/your-salon-page"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.book_btn}
+        >
+          Book Now
+        </a>
         <a
           href="https://instagram.com"
           target="_blank"

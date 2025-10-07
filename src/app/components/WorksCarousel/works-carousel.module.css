@@ -1,0 +1,36 @@
+.carouselWrapper {
+  position: relative;
+  max-width: 66rem;
+  margin: 0 auto;
+}
+
+.carousel :global(.swiper) {
+  padding-bottom: 2.5rem; /* room for pagination bullets */
+}
+
+/* Navigation arrows */
+.carousel :global(.swiper-button-prev),
+.carousel :global(.swiper-button-next) {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  color: var(--button-color);
+  backdrop-filter: none;
+}
+
+.carousel :global(.swiper-button-prev::after),
+.carousel :global(.swiper-button-next::after) {
+  font-size: 0.9rem;
+}
+
+/* Pagination bullets */
+.carousel :global(.swiper-pagination-bullet) {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+.carousel :global(.swiper-pagination-bullet-active) {
+  background: var(--button-color);
+}

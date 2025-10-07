@@ -11,13 +11,17 @@ export function Header() {
       <section className={`container ${styles.header_hero}`}>
         <div className={styles.header_content}>
           <p className="subtitle">Nail care</p>
-          <h1 className="title">enjoy the best nail care in Amsterdam</h1>
+          <h1 className={`title ${styles.title}`}>
+            The best nail service in Amsterdam
+          </h1>
+          <p className={styles.call}>Make your nails perfect right now!</p>
+          <a className="link_btn">Book an appointment</a>
         </div>
         <div className={styles.hero_image}>
           <Image
             src="/hero_pic.webp"
             alt=""
-            width={720}
+            width={600}
             height={500}
             className={styles.hero_img}
           />

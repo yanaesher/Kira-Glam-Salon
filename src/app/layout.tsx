@@ -70,7 +70,7 @@ export default function RootLayout({
         className={`${rubikSans.variable} ${satisfySans.variable} ${playfairSans.variable}  `}
       >
         <Header />
-        {children}
+        <main>{children}</main>
         {/* <Footer /> */}
       </body>
     </html>

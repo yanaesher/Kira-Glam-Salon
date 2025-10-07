@@ -1,4 +1,4 @@
-import styles from "./menu.module.css";
+import styles from "./menuItem.module.css";
 import { MENU_ITEMS, type MenuItem } from "./menu-items";
 
 export function MenuItem() {

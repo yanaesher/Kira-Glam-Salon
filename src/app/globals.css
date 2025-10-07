@@ -132,7 +132,8 @@ textarea:not([rows]) {
   font-family: var(--font-playfair-sans);
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 4.875rem;
+  text-align: center;
+  font-size: 4.5rem;
 }
 
 .subtitle {
@@ -140,4 +141,24 @@ textarea:not([rows]) {
   font-family: var(--font-satisfy-sans), sans-serif;
   color: var(--title-color);
   font-size: var(--title-size);
+}
+
+.link_btn {
+  padding: 0.6rem 1.8rem;
+  background: linear-gradient(135deg, #911439 0%, #70233b 100%);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 0.625rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.25rem 0.9375rem rgba(145, 20, 57, 0.4);
+  text-transform: uppercase;
+}
+
+.link_btn:hover {
+  transform: translateY(-0.125rem);
+  box-shadow: 0 0.5rem 1.25rem rgba(145, 20, 57, 0.5);
+  background: linear-gradient(135deg, #70233b 0%, #911439 100%);
+  color: #ffd6e0;
 }
