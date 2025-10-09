@@ -106,6 +106,7 @@ textarea:not([rows]) {
 
 /* Theme colors */
 :root {
+  --background-first-color: #e6d4d1;
   --text-color: #2b2b45;
   --nav-color: #666070;
   --button-color: #911439;
@@ -128,12 +129,11 @@ textarea:not([rows]) {
   margin: 0 auto;
 }
 
-.title {
+.highlight {
   font-family: var(--font-playfair-sans);
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  font-size: 4.5rem;
 }
 
 .subtitle {
@@ -141,6 +141,11 @@ textarea:not([rows]) {
   font-family: var(--font-satisfy-sans), sans-serif;
   color: var(--title-color);
   font-size: var(--title-size);
+}
+
+.description {
+  color: #666070;
+  text-align: left;
 }
 
 .link_btn {

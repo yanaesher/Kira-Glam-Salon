@@ -1,7 +1,7 @@
 export const MENU_ITEMS = [
-  "Services",
+  "Our Works",
   "About",
-  "Manicure",
+  "Prices",
   "Reviews",
   "Contacts",
 ] as const;

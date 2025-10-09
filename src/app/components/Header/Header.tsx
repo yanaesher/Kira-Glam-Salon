@@ -11,7 +11,7 @@ export function Header() {
       <section className={`container ${styles.header_hero}`}>
         <div className={styles.header_content}>
           <p className="subtitle">Nail care</p>
-          <h1 className={`title ${styles.title}`}>
+          <h1 className={`highlight ${styles.title}`}>
             The best nail service in Amsterdam
           </h1>
           <p className={styles.call}>Make your nails perfect right now!</p>
