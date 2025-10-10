@@ -1,0 +1,45 @@
+.card {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.imageWrapper {
+  background-color: #fff;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.imageWrapper:hover .image {
+  transform: scale(1.03);
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2b1a1a;
+  margin-bottom: 0.4rem;
+  font-family: var(--font-playfair-sans);
+}
+
+.role {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #8c0b2b;
+}

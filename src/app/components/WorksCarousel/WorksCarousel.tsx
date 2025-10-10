@@ -9,7 +9,7 @@ import {
   A11y,
   Autoplay,
 } from "swiper/modules";
-import { WORKS } from "../../data/works";
+import { WORKS } from "./data/works";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -35,9 +35,8 @@ export function WorksCarousel() {
         keyboard={{ enabled: true, onlyInViewport: true }}
         a11y={{ enabled: true }}
         autoplay={{
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false,
-          pauseOnMouseEnter: true,
         }}
         observer
         observeParents

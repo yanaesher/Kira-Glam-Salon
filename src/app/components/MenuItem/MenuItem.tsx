@@ -1,12 +1,12 @@
 import styles from "./menuItem.module.css";
-import { MENU_ITEMS, type MenuItem } from "./menu-items";
+import { MENU_ITEMS } from "./menu-items";
 
 export function MenuItem() {
   return (
     <ul className={styles.menu}>
-      {MENU_ITEMS.map((menuItem: MenuItem, index) => (
+      {MENU_ITEMS.map((menuItem, index) => (
         <li key={index}>
-          <a href={`#${menuItem}`}>{menuItem}</a>
+          <a href={`#${menuItem.id}`}>{menuItem.label}</a>
         </li>
       ))}
     </ul>

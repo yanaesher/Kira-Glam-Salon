@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./work.module.css";
-import { Work } from "@/app/data/works";
+import { Work } from "@/app/components/WorksCarousel/data/works";
 
 interface WorkCardProps {
   work: Work;
