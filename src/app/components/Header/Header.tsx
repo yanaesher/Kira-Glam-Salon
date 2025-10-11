@@ -19,11 +19,12 @@ export function Header() {
         </div>
         <div className={styles.hero_image}>
           <Image
-            src="/hero_pic.webp"
-            alt=""
+            src="/kira.jpg"
+            alt="nail master"
             width={600}
-            height={500}
+            height={600}
             className={styles.hero_img}
+            priority
           />
         </div>
       </section>

@@ -8,7 +8,7 @@ export function PriceItem({ title, description, price }: PriceItem) {
         <h3 className={styles.itemTitle}>{title}</h3>
         <p className={styles.itemDesc}>{description}</p>
       </div>
-      <div className={styles.price}>{price}</div>
+      <div className={styles.price}>&#8364;{price}</div>
     </li>
   );
 }

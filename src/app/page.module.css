@@ -41,7 +41,7 @@
   justify-content: space-between;
 }
 
-.aboutWelcome {
+.highlight {
   font-size: 1.8rem;
 }
 
@@ -129,12 +129,6 @@
   padding: 2rem 0;
 }
 
-.subtitle {
-  font-style: italic;
-  color: #7a5c5c;
-  margin-bottom: 0.5rem;
-}
-
 .title {
   font-family: var(--font-playfair-sans);
   font-size: 2rem;
@@ -167,7 +161,7 @@
 .image {
   width: 100%;
   height: auto;
-  max-height: 35rem;
+  max-height: 50rem;
   object-fit: cover;
 }
 
@@ -186,8 +180,8 @@
 }
 
 .content {
+  padding: 5rem 6rem 0 6rem;
   flex: 0 0 50%;
-  color: #2c2340;
 }
 
 .media {
@@ -292,4 +286,9 @@
   .list {
     align-items: center;
   }
+}
+
+.reviews {
+  background-color: var(--background-first-color);
+  padding: 3rem 0;
 }

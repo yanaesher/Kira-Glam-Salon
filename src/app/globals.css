@@ -114,6 +114,7 @@ textarea:not([rows]) {
   --background-secondary-color: #fbefec;
   --text-color: #2b2b45;
   --nav-color: #666070;
+  --description-color: #666070;
   --button-color: #911439;
   --title-color: rgb(206, 127, 134);
   --title-size: 1.5rem;
@@ -146,6 +147,11 @@ textarea:not([rows]) {
   font-family: var(--font-satisfy-sans), sans-serif;
   color: var(--title-color);
   font-size: var(--title-size);
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--button-color) !important;
 }
 
 .description {

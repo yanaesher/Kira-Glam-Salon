@@ -6,6 +6,7 @@ import { TeamMemberCard } from "./components/TeamMemberCard/TeamMemberCard";
 import { teamData } from "./components/TeamMemberCard/data/team";
 import { priceItems } from "./components/PricingItem/data/PriceItemsData";
 import { PriceItem } from "./components/PricingItem/PriceItem";
+import Reviews from "./components/Reviews/Reviews";
 
 export default function HomePage() {
   return (
@@ -29,7 +30,7 @@ export default function HomePage() {
           </div>
           <div className={styles.aboutContent}>
             <h2 className="subtitle">About us</h2>
-            <p className={`highlight ${styles.aboutWelcome}`}>
+            <p className={`highlight ${styles.highlight}`}>
               Welcome to Kira Glam Nails!
             </p>
             <p className={styles.aboutIntro}>
@@ -58,15 +59,16 @@ export default function HomePage() {
       </section>
 
       <section
+        id="prices"
         className={styles.price_section}
         aria-labelledby="pricing-heading"
       >
         <div className={styles.container}>
           <div className={styles.content}>
-            <p className={styles.kicker}>Pricing</p>
-            <h2 id="pricing-heading" className={styles.title}>
+            <h2 className="subtitle">Pricing</h2>
+            <p className={`highlight ${styles.highlight}`}>
               PRICING FOR MANICURE
-            </h2>
+            </p>
             <p className={styles.lead}>
               We believe that your perfect nails are the result of the
               continuous search for excellence and attention to details.
@@ -98,7 +100,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className={styles.team}>
+      <Reviews />
+
+      {/* <section className={styles.team}>
         <div className="container">
           <p className="subtitle">Team</p>
           <h2 className="highlight">nail masters</h2>
@@ -108,7 +112,7 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
