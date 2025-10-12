@@ -9,17 +9,17 @@ const contactData: ContactItem[] = [
   {
     icon: <MailIcon className={styles.icon} />,
     title: "Email",
-    lines: ["lotus.request@email.com", "lotus@email.com"],
+    lines: ["kiraglambeauty@email.com"],
   },
   {
     icon: <Phone className={styles.icon} />,
     title: "Phone",
-    lines: ["+1 (234) 567 89 00", "+1 (234) 567 89 01"],
+    lines: ["+31 6 23 47 16 43"],
   },
   {
     icon: <MapPin className={styles.icon} />,
     title: "Address",
-    lines: ["59 Queen Street,", "New York, NY 10002"],
+    lines: ["Dam 1, 1012 JS Amsterdam"],
   },
 ];
 
