@@ -7,6 +7,8 @@ import { teamData } from "./components/TeamMemberCard/data/team";
 import { priceItems } from "./components/PricingItem/data/PriceItemsData";
 import { PriceItem } from "./components/PricingItem/PriceItem";
 import Reviews from "./components/Reviews/Reviews";
+import Map from "./components/Map/Map";
+import ContactInfo from "./components/ContactInfo/ContactInfo";
 
 export default function HomePage() {
   return (
@@ -101,6 +103,7 @@ export default function HomePage() {
       </section>
 
       <Reviews />
+      <ContactInfo />
 
       {/* <section className={styles.team}>
         <div className="container">

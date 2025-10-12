@@ -2,6 +2,7 @@ import { Rubik, Satisfy, Playfair } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header/Header";
 import { Metadata } from "next";
+import Footer from "../app/components/Footer/Footer";
 
 const rubikSans = Rubik({
   variable: "--font-rubik-sans",
@@ -71,7 +72,7 @@ export default function RootLayout({
       >
         <Header />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

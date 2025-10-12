@@ -1,0 +1,106 @@
+.footer {
+  background-color: #2b2940;
+  color: #f5e6e6;
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+/* Верхняя часть футера */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.slogan {
+  font-size: 0.9375rem; /* 15px */
+  font-weight: 600;
+  flex: 1 1 30%;
+  text-align: left;
+}
+
+.logoBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 30%;
+}
+
+.logo {
+  width: 2.5rem; /* 40px */
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.logoText {
+  font-family: "Playfair Display", serif;
+  font-size: 1.125rem; /* 18px */
+  margin-top: 0.25rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 30%;
+}
+
+.icon {
+  color: #f5e6e6;
+  transition: opacity 0.3s ease;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+/* Разделительная линия */
+.line {
+  border: none;
+  border-top: 1px solid #4b4760;
+  margin: 2rem 0;
+}
+
+/* Нижняя навигация */
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.link {
+  color: #d7c6c6;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+/* --- адаптив --- */
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slogan {
+    text-align: center;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  .nav {
+    gap: 1rem;
+  }
+}

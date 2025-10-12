@@ -43,6 +43,7 @@
 
 .highlight {
   font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 .aboutPhone {
@@ -91,7 +92,6 @@
   margin-bottom: 1.2rem;
 }
 
-/* Мобильные стили */
 @media (max-width: 640px) {
   .aboutPhone {
     justify-content: center;
@@ -291,4 +291,9 @@
 .reviews {
   background-color: var(--background-first-color);
   padding: 3rem 0;
+}
+
+.contacts {
+  background-color: var(--background-secondary-color);
+  padding: 4rem 0;
 }
